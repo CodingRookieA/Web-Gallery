@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Web Gallery</title>
+    <link href="style/main.css" rel="stylesheet" type="text/css" />
+    <link href="style/messages.css" rel="stylesheet" type="text/css" />
+    <link href="style/form.css" rel="stylesheet" type="text/css" />
+    <script type="module" src="js/gallery.mjs"></script>
+</head>
+
+<body>
+
+    <div class="web_container">
+        <header>
+            <h1 id="web_title">Web Gallery</h1>
+        </header>
+
+        <button type="button" class="btn" id="signout">Sign Out</button>
+
+        <form class="complex_form" id="create_image_form">
+            <div class=title_toggle>
+                <div class="form_title">Post your picture!</div>
+                <button type="button" class="btn" id="hide">Expand</button>
+            </div>
+
+            <div id="fields", class="image_form">
+            
+                <input type="text" id="title" class="form_element" placeholder="Enter your image title" required />
+
+                <input type="file"  id="image_input" class="form_element" name="picture" accept="image/*" required/>
+
+                <button type="submit" class="btn" , id="add_image">Post your image!</button>
+            </div>
+        </form>
+
+        <select id="dropdown", class="dropdown">
+  
+        </select>
+
+
+        <div class="image_sec" id="image_sec"></div>
+
+        <h2 id="error_box"></h1>
+
+        <div class="messages" id="messages"></div>
+
+        <footer>
+            <a href="credits.html">credits</a>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+/* This snippet of code is modified from form.css from CSCC09 lab 2 */
+
+
+.web_container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border: 2px dashed #333;
+    padding: 0 20px;
+    width: auto;
+}
+
+.complex_form {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px #3c3d3f solid;
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.complex_form .form_title {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+    color: white;
+    background-color: #3c3d3f;
+    flex-shrink: 0;
+}
+
+.complex_form .form_radio {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.complex_form .form_element {
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.image_form {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+
+.title_toggle {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 12px;
+    justify-content: space-between;
+    min-width: 400px;
+    padding: 5px;
+}
+
+#fields {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+#fields.show {
+    max-height: 500px;
+    /* just make sure this is larger than your content */
+    opacity: 1;
+}
+
+.image_sec {
+    display: inline-flex;
+    margin-top: 20px;
+    padding: 20pt;
+    flex-direction: column;
+}
+
+.image_container {
+    flex-direction: column;
+    display: inline-flex;
+}
+
+
+.gallery_header{
+    text-align: center;
+    margin-bottom: 20pt;
+}
+
+.dropdown{
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #3c3d3f;
+    background: #ffffff;
+    border: 2px #3c3d3f solid;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+}
+
+.img_title {
+    font-size: 15px;
+    font-weight: bold;
+    margin: -20px -10px 20px -10px;
+    padding: 10px 0px 10px 25px;
+    color: white;
+    background-color: #3c3d3f;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.image {
+    display: flex;
+}
+
+.comment {
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.dele_btn {
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #3c3d3f;
+    background: #ffffff;
+    border: 2px #3c3d3f solid;
+    padding: 10px 20px 10px 30px;
+    margin-bottom: 10px;
+}
+
+.dele_btn:hover {
+    background: #3c3d3f;
+    color: #ffffff;
+}
+
+/* This snippet of code was generated using: http://css3buttongenerator.com/ */
+
+.btn {
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #3c3d3f;
+    background: #ffffff;
+    border: 2px #3c3d3f solid;
+    padding: 10px 20px 10px 20px;
+}
+
+.btn:hover {
+    background: #3c3d3f;
+    color: #ffffff;
+}
