@@ -3,6 +3,8 @@
 Web Gallery is a full-stack web application that allows users to share, browse, and comment on pictures — similar to platforms like Instagram or Google Photos.
 This project focuses on secure user authentication, authorization, and modern deployment using HTTPS with a multi-containerized Docker setup.
 
+The live version can be found at: https://hw3-codingrookiea.amazingcloud.space/
+
 🚀 Overview
 
 Web Gallery enables authenticated users to create and manage their own galleries while browsing others’. The application integrates both frontend and backend services, containerized and orchestrated with Docker Compose, and deployed on a DigitalOcean virtual machine using HTTPS.
